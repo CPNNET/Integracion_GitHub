@@ -31,7 +31,7 @@ jobs:
       uses: ./ # Uses an action in the root directory
       id: upload_and_scan
       with:
-        appname: '${{ github.repository }}'
+        appname: 'pl_demo'
         version: '${{ github.run_id }}'
         filepath: './target/verademo.war'
         vid: '${{ secrets.vid }}'
