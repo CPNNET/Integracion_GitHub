@@ -3,7 +3,7 @@ description: 'Upload files to veracode and start a static scan.'
 inputs:
   appname:  # id of input
     description: 'pl_demo'
-    required: true
+    required: false
     default: '${{ github.repository }}'
   createprofile:  # id of input
     description: 'pl_demo'
