@@ -24,13 +24,13 @@ inputs:
     required: true
   createsandbox: 
     description: 'true or flase'
-    required: false
+    required: true
   sandboxname:
-    description: 'name of the sandbox'
-    required: false
+    description: '${{ github.run_id }}'
+    required: true
   scantimeout:
     description: 'wait X minutes for the scan to complete'
-    required: false
+    required: true
   exclude:
     description: 'modules to exclude from module selection'
     required: false
