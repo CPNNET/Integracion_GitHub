@@ -24,9 +24,9 @@ inputs:
     required: true
   createsandbox: 
     description: 'true or flase'
-    required: true
+    required: false
   sandboxname:
-    description: '${{ github.run_id }}'
+    description: 'GitHub'
     required: true
   scantimeout:
     description: 'wait X minutes for the scan to complete'
