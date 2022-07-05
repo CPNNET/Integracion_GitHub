@@ -2,11 +2,11 @@ name: 'Veracode Upload And Scan'
 description: 'Upload files to veracode and start a static scan.'
 inputs:
   appname:  # id of input
-    description: 'GITHUB'
+    description: 'Demo_integration'
     required: false
     default: '${{ github.repository }}'
   createprofile:  # id of input
-    description: 'GITHUB'
+    description: 'Demo_integration'
     required: false
     default: false
   filepath:  # id of input
