@@ -28,7 +28,6 @@ deleteincompletescan=${21}
 
 
 
-
 echo "Required Information"
 echo "===================="
 echo "appname: $appname"
