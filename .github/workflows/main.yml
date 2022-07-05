@@ -40,3 +40,4 @@ jobs:
         sandboxname: 'Github'
         scantimeout: 15
         criticality: 'VeryHigh'
+
