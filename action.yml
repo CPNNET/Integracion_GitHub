@@ -67,7 +67,6 @@ inputs:
   deleteincompletescan:
     description: 'automatically delete the current scan if there are any errors when uploading files or starting the scan'
     required: false
-  
     
  
 # outputs:
