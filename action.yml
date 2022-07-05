@@ -68,7 +68,6 @@ inputs:
     description: 'automatically delete the current scan if there are any errors when uploading files or starting the scan'
     required: false
     
- 
 # outputs:
 #   time: # id of output
 #     description: 'The time we greeted you'
