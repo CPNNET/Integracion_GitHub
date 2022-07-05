@@ -26,7 +26,7 @@ jobs:
           path: verademo.war # Wildcards can be used to filter the files copied into the container. See: https://github.com/actions/upload-artifact
       - uses: veracode/veracode-uploadandscan-action@master # Run the uploadandscan action. Inputs are described above.
         with:
-          appname: 'pl_demo'
+          appname: 'Demo_integration'
           version: '${{ github.run_id }}'
           filepath: './target/verademo.war'
           vid: '${{ secrets.vid }}'
